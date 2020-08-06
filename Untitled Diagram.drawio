@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T01:54:26.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="jL8RXCVN2-uMnkIhUqrL" version="13.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-06T01:56:18.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="QN58kI_4rV1XtDK1hPgM" version="13.6.0" type="github" pages="2">
   <diagram id="vkHSAqvuVLFmnMc-gERQ" name="Page-1">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,7 +212,7 @@
           <mxGeometry x="540" y="666" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gidcGa3Jhn72kaZIP9KM-51" value="Status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#007FFF;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="540" y="780" width="150" height="30" as="geometry" />
+          <mxGeometry x="540" y="815" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gidcGa3Jhn72kaZIP9KM-52" value="HiveTableName" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="320" y="358" width="150" height="30" as="geometry" />
@@ -263,6 +263,9 @@
           <mxGeometry x="540" y="720" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L2cQDO3aGqiAbLSgbnmA-3" value="ReconStatus" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="540" y="785" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L2cQDO3aGqiAbLSgbnmA-4" value="CountDifference" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="540" y="750" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
