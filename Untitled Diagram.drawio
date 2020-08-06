@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T00:36:32.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="BEP5y_YL-G5IX8dwz3LJ" version="13.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-06T00:54:02.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="cb-sCB4YjIpe06FGC8Pk" version="13.6.0" type="github" pages="2">
   <diagram id="vkHSAqvuVLFmnMc-gERQ" name="Page-1">
     <mxGraphModel dx="1221" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -259,23 +259,6 @@
         <mxCell id="gidcGa3Jhn72kaZIP9KM-74" value="&lt;b&gt;Status&lt;/b&gt;&lt;br&gt;Waiting&lt;br&gt;Running&lt;br&gt;Success&lt;br&gt;Failed&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="760" y="620" width="70" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="gidcGa3Jhn72kaZIP9KM-76" value="Job Visual Flow" style="swimlane;html=1;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;labelBackgroundColor=none;strokeColor=#FFCCE6;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="50" y="670" width="140" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="gidcGa3Jhn72kaZIP9KM-77" value="Start" style="whiteSpace=wrap;html=1;" vertex="1" parent="gidcGa3Jhn72kaZIP9KM-76">
-          <mxGeometry x="20" y="40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="gidcGa3Jhn72kaZIP9KM-78" value="Task" style="whiteSpace=wrap;html=1;" vertex="1" parent="gidcGa3Jhn72kaZIP9KM-76">
-          <mxGeometry x="20" y="130" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="gidcGa3Jhn72kaZIP9KM-79" value="" style="html=1;curved=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="gidcGa3Jhn72kaZIP9KM-76" source="gidcGa3Jhn72kaZIP9KM-77" target="gidcGa3Jhn72kaZIP9KM-78">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="70" y="92" />
-              <mxPoint x="70" y="118" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -285,12 +268,20 @@
         <mxCell id="t8ctUy6-qEljweguRVWg-0" />
         <mxCell id="t8ctUy6-qEljweguRVWg-1" parent="t8ctUy6-qEljweguRVWg-0" />
         <mxCell id="t8ctUy6-qEljweguRVWg-2" value="Job Flow Layout" style="swimlane;html=1;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;labelBackgroundColor=none;strokeColor=#FFCCE6;fontSize=11;fontColor=#000000;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
-          <mxGeometry x="290" y="210" width="140" height="190" as="geometry" />
+          <mxGeometry x="290" y="210" width="140" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="t8ctUy6-qEljweguRVWg-3" value="Start" style="whiteSpace=wrap;html=1;" vertex="1" parent="t8ctUy6-qEljweguRVWg-2">
+        <mxCell id="t8ctUy6-qEljweguRVWg-3" value="Framework&lt;br&gt;Start" style="whiteSpace=wrap;html=1;" vertex="1" parent="t8ctUy6-qEljweguRVWg-2">
           <mxGeometry x="20" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="t8ctUy6-qEljweguRVWg-4" value="Appworx DB skeleton" style="whiteSpace=wrap;html=1;" vertex="1" parent="t8ctUy6-qEljweguRVWg-2">
+        <mxCell id="t8ctUy6-qEljweguRVWg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;noEdgeStyle=1;orthogonal=1;" edge="1" parent="t8ctUy6-qEljweguRVWg-2" source="t8ctUy6-qEljweguRVWg-4" target="t8ctUy6-qEljweguRVWg-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="182" />
+              <mxPoint x="70" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t8ctUy6-qEljweguRVWg-4" value="Json ADLS" style="whiteSpace=wrap;html=1;" vertex="1" parent="t8ctUy6-qEljweguRVWg-2">
           <mxGeometry x="20" y="130" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t8ctUy6-qEljweguRVWg-5" value="" style="html=1;curved=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="t8ctUy6-qEljweguRVWg-2" source="t8ctUy6-qEljweguRVWg-3" target="t8ctUy6-qEljweguRVWg-4">
@@ -301,14 +292,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="t8ctUy6-qEljweguRVWg-17" value="New Run" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#FFCCE6;fontSize=11;fontColor=#000000;" vertex="1" parent="t8ctUy6-qEljweguRVWg-2">
+          <mxGeometry x="30" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="t8ctUy6-qEljweguRVWg-13" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.alarm_clock;fontSize=11;fontColor=#000000;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
           <mxGeometry x="340" y="120" width="27" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t8ctUy6-qEljweguRVWg-14" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
-          <mxGeometry x="400" y="340" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="t8ctUy6-qEljweguRVWg-15" value="Appworx DB Schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
+        <mxCell id="t8ctUy6-qEljweguRVWg-15" value="Appworx Source DB Schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
           <mxGeometry x="310" y="160" width="83.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Npc4RyfrknuILlzrVApL-1" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#0066cc&quot;&gt;&lt;b&gt;Source DB 1&lt;/b&gt;&lt;/font&gt;" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json;labelBackgroundColor=none;strokeColor=#FFCCE6;fontSize=11;fontColor=#007FFF;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
+          <mxGeometry x="456.34" y="340" width="17.32" height="22.9" as="geometry" />
+        </mxCell>
+        <mxCell id="EuTvr9GZm4jACRG97oUg-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/scala-128.png;strokeColor=#FFCCE6;fontSize=11;fontColor=#007FFF;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
+          <mxGeometry x="450" y="252.9" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Npc4RyfrknuILlzrVApL-12" value="F" style="endArrow=classic;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="t8ctUy6-qEljweguRVWg-1" source="t8ctUy6-qEljweguRVWg-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="456.34" y="470" as="sourcePoint" />
+            <mxPoint x="610" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Npc4RyfrknuILlzrVApL-13" value="Fresh Load" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Npc4RyfrknuILlzrVApL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Npc4RyfrknuILlzrVApL-14" value="Yes" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;fontStyle=1" connectable="0" vertex="1" parent="Npc4RyfrknuILlzrVApL-12">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Npc4RyfrknuILlzrVApL-17" value="R" style="endArrow=classic;html=1;fontSize=11;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="t8ctUy6-qEljweguRVWg-1" source="t8ctUy6-qEljweguRVWg-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="510" as="sourcePoint" />
+            <mxPoint x="120" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Npc4RyfrknuILlzrVApL-18" value="Re-Run failed Tables alone" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Npc4RyfrknuILlzrVApL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Npc4RyfrknuILlzrVApL-19" value="No" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;fontStyle=1" connectable="0" vertex="1" parent="Npc4RyfrknuILlzrVApL-17">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xixjQ6_-sKl_XSKxj9uF-0" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="t8ctUy6-qEljweguRVWg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xixjQ6_-sKl_XSKxj9uF-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=11;fontColor=#000000;" edge="1" parent="t8ctUy6-qEljweguRVWg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="470" as="sourcePoint" />
+            <mxPoint x="310" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xixjQ6_-sKl_XSKxj9uF-13" value="Finsih" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#FFCCE6;fontSize=11;fontColor=#000000;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
+          <mxGeometry x="320" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xixjQ6_-sKl_XSKxj9uF-14" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;fontSize=11;fontColor=#000000;" vertex="1" parent="t8ctUy6-qEljweguRVWg-1">
+          <mxGeometry x="345" y="550" width="30" height="16.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
