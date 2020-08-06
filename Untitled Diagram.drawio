@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T00:14:22.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="VL324bV-Cf0CLVPflfjO" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T00:16:09.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="K4vcNo9StX9HJJYUEn3y" version="13.6.0" type="github">
   <diagram id="vkHSAqvuVLFmnMc-gERQ" name="Page-1">
     <mxGraphModel dx="1221" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -205,7 +205,7 @@
         <mxCell id="gidcGa3Jhn72kaZIP9KM-50" value="EndDateTime" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="540" y="666" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gidcGa3Jhn72kaZIP9KM-51" value="Status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="gidcGa3Jhn72kaZIP9KM-51" value="Status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#007FFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="540" y="696" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gidcGa3Jhn72kaZIP9KM-52" value="HiveTableName" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
@@ -222,6 +222,12 @@
         </mxCell>
         <mxCell id="gidcGa3Jhn72kaZIP9KM-56" value="HiveTableName" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="540" y="417" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gidcGa3Jhn72kaZIP9KM-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#007FFF;" edge="1" parent="1" source="OSCY4gfTOVEM4-6REEk--27" target="gidcGa3Jhn72kaZIP9KM-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gidcGa3Jhn72kaZIP9KM-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#007FFF;" edge="1" parent="1" source="OSCY4gfTOVEM4-6REEk--30" target="gidcGa3Jhn72kaZIP9KM-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
